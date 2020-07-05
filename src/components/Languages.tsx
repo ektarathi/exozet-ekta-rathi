@@ -5,11 +5,10 @@ export interface LanguagesProps {
 }
 
 const Languages: React.SFC<LanguagesProps> = ({ details }: LanguagesProps) => {
-    //console.log('languages : ', details);
     let totalValue = 0;
 
     Object.keys(details).map((key) => {
-        totalValue+= details[key];
+        return totalValue+= details[key];
     })
     
 	return (
