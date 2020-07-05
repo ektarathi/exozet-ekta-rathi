@@ -1,0 +1,18 @@
+.submit-button {
+    background-color: #ec174c;
+    border-radius: 50px;
+    width: 30%;
+    border: 0;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+    cursor: pointer;
+
+    &:focus {
+        outline-style: solid;
+        outline-width: 2px;
+        outline-offset: 0;
+        outline-color: #f7931d;
+    }
+}

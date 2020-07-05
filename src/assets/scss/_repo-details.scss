@@ -1,0 +1,23 @@
+.repo-details {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #d8d8d8;
+    
+    &__left-content {
+        flex: 4 0 0;
+
+        &--heading {
+            text-transform: capitalize;
+            color: red;
+        }
+
+        &--features {
+            color: #939393;
+        }
+    }
+
+    &__right-content {
+        flex: 1 0 0;
+        text-align: right;
+    }
+}
